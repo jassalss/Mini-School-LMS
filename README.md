@@ -1,68 +1,27 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Mini-School-LMS
 
-## Available Scripts
+This project is react + redux + firebase project. This web app is a CRUD application. The backend is firebase.
 
-In the project directory, you can run:
+As the name suggests, it is a small LMS. I created this small LMS for high school in India. Due to COVID19, there are no in-person classes. This web app allows teachers to upload homework for students. Students can download or see the homework on their mobile phones.
 
-### `npm start`
+Since the whole idea of LMS is very new for most of the schools in India. This web app doesn't allow students to upload their completed homework. It is a small test if teachers and students like this LMS, I will extend and add more functionality to this web app in future iterations
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Responsiveness 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+In India, laptops are not very popular in school students. Most of the students don't have laptops, so this web app made for a mobile browser. This app looks very lovely in mobile orientation. Although this web app mode for mobile browsers, it also look very lovely on big screens
 
-### `npm test`
+## State and Banckend
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The state of the app is managed by redux. All the firebase operations are done with the help of redux actions. Firebase SDK is used for all CRUD operations. Firebase SDK is available as an NPM package. There are routes in this app. For routes, a react-router-dom package is used.
 
-### `npm run build`
+For database security, firebase rules are used.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deployment and live demo
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+The app is deployed with firebase hosting. Please check the following web address for a live demo.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+https://guru-nanak-school-lms.web.app/
 
-### `npm run eject`
+## Cached demo with firebase database
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<img src="demo/demo.gif" width="900" height="600" />
